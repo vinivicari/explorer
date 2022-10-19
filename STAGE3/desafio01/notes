@@ -1,0 +1,76 @@
+INPUT - campos de preenchimento
+type="text,radio..." 
+name="titulo" 
+id="titulo"
+
+LABEL - texto acima do campo, para saber o q sera preenchido
+for="titulo" - puxa o input com o mesmo id do input
+
+
+tipos de input
+01. password - senha
+02. checkbox - assinalar caixa
+03. number - apenas numeros
+04.
+05.
+06.
+07.
+08.
+
+
+select name="xxx" id="xxx" - opçoes
+  option value="music" - musica
+  option value="movie" - filmes
+select
+  -> appearance: none; tira a seta de selecao
+        -webkit-appearance
+        garanto que todos os navegadores
+        funcionem com a funcao appearance
+
+textarea name id - campo para texto mais longo
+  cols="20" - colunas 
+  rows="10" - linhas 
+  *obs: mais definido pelo css a qtd de cols e rows
+
+
+  form action="" method=""
+  form
+
+
+.row-formulario > div:nth-child(numero da div)
+  - faz com que vc possa escolher apenas uma div dentro da classe ou div
+    sendo que, a numero escolhida dentro eh a posicao da div
+
+
+  para poder editar quando algum checkbox for clicado
+  apos clicar, mudar a cor por exemplo
+  ou seja
+input:checked + label::before{
+  background-color: black;
+}
+  estará na cor padrao do background, porem qnd eu clicar
+  muda a cor pra preto
+
+
+checkbox-wrapper input:focus + label::before{
+  serve para a acessabilidade, para navegar com o tab e preencher caixa com o
+  espaço, cria um outline(contorno) na checkbox para o usuario saber aonde está
+  navegando 
+}
+
+*linkando um form com um buttom fora de um forms*
+colocar um id no form - ex: id="formulariocadastro"
+e no bottao colocar --- form="formulariocadastro"
+
+
+colocando obrigatoriedade em alguns campo do forms
+comando é: required (apenas)
+
+quando o input for invalido
+input:invalid{
+  css
+  border: 2px solid red;
+} 
+ele realça a caixa que está incorreta ou nao foi preenchida
+
+minlenght="8" - coloca a quantidade minima de caracteres a serem preenchidos
