@@ -3,37 +3,37 @@ body {
 
   font-family: "Open Sans", sans-serif;
 
-  background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+  background: linear-gradient(180deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
 
   min-height: 100vh;
+}
+
+main {
+  display: flex;
+  gap: 158px;
 }
 
 .page {
   width: 1000px;
   margin: 0 auto;
   padding-top: 65px;
-
-}
-
-main{
-  display: flex;
-  gap: 158px;
 }
 
 nav {
   display: flex;
+  justify-content: space-between;
+
   align-items: center;
 
-  margin-bottom: 106px;
+  margin-bottom: 55px;
   gap: 635px;
 }
 
 ul {
   display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
   gap: 48px;
+  list-style: none;
+
 }
 
 a {
@@ -42,7 +42,7 @@ a {
 }
 
 ul li a {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 ul li a:hover {
@@ -50,10 +50,18 @@ ul li a:hover {
   opacity: 1;
 }
 
-h1,
-ul {
+h3,
+h1 {
   font-family: "Mulish", sans-serif;
 }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 
 h1 {
   font-size: 49px;
@@ -70,60 +78,48 @@ h1 span {
   font-weight: bold;
 }
 
-section p {
+h3 {
   font-size: 14px;
   line-height: 28px;
   color: #7d7987;
-
+  font-weight: 400;
   margin: 40px 0;
 }
 
 button {
   color: white;
+  text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-  height: 56px;
-  width: 182px;
 
   background: #69B99D;
   border: 0;
-
-  padding: 17px 32px 17px 32px;
+  padding: 14px 32px 15px;
 
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   gap: 10px;
 
-  text-transform: uppercase;
-  line-height: 21.79px;
   border-radius: 4px;
 
   cursor: pointer;
-
-  line-height: 22px;
-
-  margin-top: 40px;
-}
-
-button:hover {
-  background: #4EA788;
 }
 
 footer {
-  font-size: 14px;
-  line-height: 28px;
-
   text-align: center;
+  line-height: 28px;
+  align-items: center;
 
-  margin-top: 80px;
+  margin-top: 270px;
 }
+
 
 footer a {
   font-weight: bold;
 }
 
-#balls{
-  position: fixed;
-  right: 0;
-  bottom: 0;
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
