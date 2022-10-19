@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+header {
+  background: #8E9AAF;
+  text-align: center;
+
+  padding-top: 3.2rem;
+  padding-bottom: 2.9rem;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  
+  width: 100%;
+  background: #CBC0D3;
+  text-align: center;
+  padding: 0.8rem;
+
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+}
+
+main {
+  background: #EFF1FF;
+
+  padding: 1.4rem 3.2rem;
+}
+
+p {
+  font-family: 'Palanquin';
+
+  color: hsla(274, 84%, 12%, 1);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+
+  text-align: center;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: justify;
+
+  margin-top: 1.4rem;
+  margin-bottom: 5rem;
+}
+
+.cream-group{
+  margin: 0 auto;
+}
+
+span {
+  font-family: 'Staatliches';
+
+  background: #FEEAFA;
+  border-radius: 2rem;
+
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+
+  color: hsla(232, 17%, 35%, 1);
+  line-height: 3.4rem;
+  font-size: 2rem;
+  letter-spacing: 5%;
+}
+
+img{
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cream-group {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+}
+
+.cream-type {
+  position: relative;
+}
+
+.cream-group span {
+  position: absolute;
+  right: 1.6rem;
+  top: 1.6rem;
+}
+
