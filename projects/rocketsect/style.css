@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  padding: 71px 100px 0px;
+  margin: 0 auto;
+  width: 1280px;
+
+  display: grid;
+  grid-template-rows: 4rem 70vh 2rem;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+
+  height: 100vh;
+
+  background-color: #2C2B3D;
+  color: #FFFFFF;
+}
+
+nav {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 101px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 64px;
+
+  color: #FFFFFF;
+}
+
+ul li{
+  transition: all .3s;
+}
+
+ul li:hover{
+  filter: opacity(0.8);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+h1 span,
+p span {
+  color: hsla(172, 100%, 37%, 1);
+  font-weight: 700;
+}
+
+p {
+  color: #C2C2C2;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 77px;
+
+  width: 1092px;
+}
+
+.text {
+  text-align: center;
+}
+
+.text h1 {
+  margin-bottom: 60px;
+}
+
+#cadeado {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+footer p{
+  text-align: center;
+
+  padding: 27px 15px 0;
+}
+
+.line {
+  height: 1px;
+  width: 567px;
+  border-top: 1px solid hsla(172, 100%, 37%, 1);
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1px solid hsla(172, 100%, 37%, 1);
+}
+
+main > svg {
+  width: 80%;
+  display: block;
+}
