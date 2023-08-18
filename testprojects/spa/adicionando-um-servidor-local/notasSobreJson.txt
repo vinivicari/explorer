@@ -1,0 +1,11 @@
+-- VERIFICANDO VERSAO DO NODE
+node -v 
+
+-- VERIFICANDO JSON DO NODE
+npm init -y
+
+-- INSTALANDO SERVER DO NODEJS
+npm install live-server 
+
+-- ABRINDO LIVE SERVER DO NODEJS
+npm start
